@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from sklearn.model_selection import train_test_split
 
-
+#Loading dataset
 data= pd.read_csv("C:\\Users\\HP\\OneDrive\\Documents\\Python programming(sem4)\\python files\\Titanic-Dataset.csv")
 print(data.head())
 data=data.drop(['Name','Cabin','Ticket'],axis=1)
@@ -16,11 +16,15 @@ print(data.isnull().sum())
 
 age=data['Age'].mean()
 
+#F illing missing value
 data['Age']=data['Age'].fillna(age)
 data['Embarked']= data['Embarked'].fillna(data['Embarked'].mode()[0])   # first most frequent value
 print(data.isnull().sum())
+
 data=pd.get_dummies(data, columns=['Sex','Embarked'],drop_first=True)   #Logistic Regression only works with numbers.
                                           #drop_first-> A boolean (True or False) to drop one of the dummy columns per original feature.
+
+#Model training
 x=data.drop('Survived',axis=1)
 y=data['Survived']
 
@@ -30,7 +34,7 @@ model.fit(x_train,y_train)
 
 y_pred=model.predict(x_test)
 
-
+#Evaluation
 print("Classification Report: \n",classification_report(y_test,y_pred))
 print("\n")
 print("Confusion Matrix: \n",confusion_matrix(y_test,y_pred))
