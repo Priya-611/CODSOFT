@@ -1,0 +1,5 @@
+Python
+NumPy
+Pandas
+Matplotlib
+scikit-learn (Random Forest, model evaluation metrics)
