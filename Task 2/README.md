@@ -12,6 +12,7 @@ Project Goal: To analyze historical movie data and build a machine learning mode
 
 
 ##  Dataset
+[Kaggle](https://www.kaggle.com/datasets/adrianmcmahon/imdb-india-movies)
 The dataset used contains information about Indian movies such as:
 - Name
 - Year
