@@ -1,8 +1,4 @@
-# CODSOFT
-This repository contains data science internship tasks including Titanic survival prediction using Logistic Regression
-
-
-## Titanic Survival Prediction Using Logistic Regression
+# Titanic Survival Prediction Using Logistic Regression
 
 This project is part of the **CODSOFT Data Science Internship** and focuses on building a machine learning model to predict whether a passenger on the Titanic would have survived or not. The solution leverages the Logistic Regression algorithm and uses a structured dataset containing information such as age, gender, ticket class, fare, and more.
 
