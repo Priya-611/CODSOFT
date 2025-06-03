@@ -31,8 +31,7 @@ The dataset used contains information about Indian movies such as:
 - Pandas
 - Matplotlib
 - scikit-learn (Random Forest, model evaluation metrics)
-
----
+ 
 
 ##  Data Preprocessing Steps
 
@@ -66,6 +65,7 @@ The dataset used contains information about Indian movies such as:
 
 
 
-## 🧪 Sample Output
+## Sample Output
 
-
+- **Mean_sqaures_error**: 1.1777727935606062
+  **r2_Square**: 0.3608033059464323
