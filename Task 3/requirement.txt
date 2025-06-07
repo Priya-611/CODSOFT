@@ -1,1 +1,5 @@
-
+- Python 
+- Pandas
+- NumPy
+- Matplotlib (for future visualization)
+- Scikit-learn (ML model and metrics)
