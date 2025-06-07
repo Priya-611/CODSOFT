@@ -1,3 +1,9 @@
+# Logistic Regression 
+# A classification algorithm used to predict binary or multiclass labels.
+# Used to: Predict categories (like Yes/No or 0/1)  (Spam or not spam ,Disease or no disease)
+# Output: Probability between 0 and 1
+# (e.g. 0.87 → likely class 1)
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
