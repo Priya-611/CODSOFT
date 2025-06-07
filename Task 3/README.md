@@ -20,7 +20,7 @@ This dataset is ideal for **introductory classification tasks** and demonstrates
 
 ## Dataset
 
-The dataset used is the **Iris dataset**, which contains:
+The dataset used is the [Kaggle](https://www.kaggle.com/datasets/arshid/iris-flower-dataset)**Iris dataset**, which contains:
 - `sepal_length`
 - `sepal_width`
 - `petal_length`
